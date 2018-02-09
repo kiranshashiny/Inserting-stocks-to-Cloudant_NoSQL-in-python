@@ -27,7 +27,7 @@ from cloudant.result import Result, ResultByKey
 
 # Replace as appropriate, this is obtained when user creates the DB instance in IBMs Cloudant .
 
-client = Cloudant("7be57a6c-61cb-455a-af9c-3e3b8c392d0f-bluemix", "0b3e4268a2d73219efd0432625c8130ba0e65020b6a036edccf6065a584c13cd", url="https://7be57a6c-61cb-455a-af9c-3e3b8c392d0f-bluemix:0b3e4268a2d73219efd0432625c8130ba0e65020b6a036edccf6065a584c13cd@7be57a6c-61cb-455a-af9c-3e3b8c392d0f-bluemix.cloudant.com")
+client = Cloudant("69369b3a-9733-4e18-b34c-a741d22d2adb-bluemix", "f9b10338e4d2d36caff96cd018103eb20b6b0aba809b9b98c0fa6f9414ed4e6c", url="https://69369b3a-9733-4e18-b34c-a741d22d2adb-bluemix:f9b10338e4d2d36caff96cd018103eb20b6b0aba809b9b98c0fa6f9414ed4e6c@69369b3a-9733-4e18-b34c-a741d22d2adb-bluemix.cloudant.com")
 
 client.connect()
 

@@ -32,6 +32,23 @@ Should look something like this.
   	"url": "https://69369b3a-9733-4e18-b34c-a741d22d2adb-bluemix:f9b10338e4d2d36caff96cd018103eb20b6b0aba809b9b98c0fa6f9414ed4e6c@69369b3a-9733-4e18-b34c-a741d22d2adb-bluemix.cloudant.com"
 	}
 
+Insert this credentials into the Python script during the connect() operation as shown.
+
+```
+	# Replace as appropriate, this is obtained when user creates the DB instance in IBMs Cloudant .
+
+	client = Cloudant("69369b3a-9733-4e18-b34c-a741d22d2adb-bluemix", "f9b10338e4d2d36caff96cd018103eb20b6b0aba809b9b98c0fa6f9414ed4e6c", url="https://69369b3a-9733-4e18-b34c-a741d22d2adb-bluemix:f9b10338e4d2d36caff96cd018103eb20b6b0aba809b9b98c0fa6f9414ed4e6c@69369b3a-9733-4e18-b34c-a741d22d2adb-bluemix.cloudant.com")
+
+```
+
+Run the script :
+```
+	python createstockdb.py
+```
+
+Snapshot of the Dashboard where the database is created is shown below.
+
+
 Click on Manage on the nav panel on the left and Launch the Cloudand Dashboard.
 
 ![screen shot 2018-02-09 at 3 38 46 pm](https://user-images.githubusercontent.com/14288989/36022884-a3b7e3aa-0db0-11e8-979d-923d4d9b185d.png)
@@ -49,3 +66,8 @@ Click on Manage on the nav panel on the left and Launch the Cloudand Dashboard.
 ![screen shot 2018-02-09 at 3 47 02 pm](https://user-images.githubusercontent.com/14288989/36022875-a26d1128-0db0-11e8-93b7-fa70a0e2b4de.png)
 
 ![screen shot 2018-02-09 at 3 47 27 pm](https://user-images.githubusercontent.com/14288989/36022873-a2365bf6-0db0-11e8-93d8-241a730638cb.png)
+
+
+After running the script, you should see the database being created ( Refresh the browser in "Database" in the nav panel )
+
+![screen shot 2018-02-09 at 3 55 05 pm](https://user-images.githubusercontent.com/14288989/36023204-a9c1b5a4-0db1-11e8-9987-47962fd9f3f5.png)
